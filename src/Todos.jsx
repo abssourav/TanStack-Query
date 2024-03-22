@@ -17,7 +17,7 @@ const getTodos = async () => {
 
 const addTodos = async (newTodos) => {
   return await axios.post(
-    "https://jsonplaceholder.typicode.com/postss",
+    "https://jsonplaceholder.typicode.com/posts",
     newTodos
   );
 };
